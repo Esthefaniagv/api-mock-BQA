@@ -1,81 +1,295 @@
 {
   "orders": [
     {
-      "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
+      "client": "NoDelivered",
       "products": [
         {
-          "qty": 1,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
         }
       ],
       "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "dataEntry": 1695931930672,
+      "id": 9,
+      "dateProcessed": 1697126777203
+    },
+    {
+      "client": "Invalid pedido",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        }
+      ],
+      "status": "ready",
+      "dataEntry": 1696001197975,
+      "id": 10,
+      "dateProcessed": 1697126778251
+    },
+    {
+      "client": "Rosalia",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        },
+        {
+          "id": 3,
+          "name": "Agua 500ml",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+          "type": "Almuerzo",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        },
+        {
+          "name": "Agua BENDITA 500ml",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+          "type": "Almuerzo",
+          "id": 4,
+          "qty": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": 1696276030449,
+      "id": 12,
+      "dateProcessed": 1696276076885
+    },
+    {
+      "client": "Raw",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": 1696276046918,
+      "id": 13,
+      "dateProcessed": 1696276075659
+    },
+    {
+      "client": "Jose Madero",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        },
+        {
+          "id": 3,
+          "name": "Agua 500ml",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+          "type": "Almuerzo",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": 1696276056363,
+      "id": 14,
+      "dateProcessed": 1696276074188
+    },
+    {
+      "client": "",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        }
+      ],
+      "status": "pending",
+      "dataEntry": 1696430543231,
+      "id": 15
+    },
+    {
+      "client": "esthefania",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": 1696430549444,
+      "id": 16,
+      "dateProcessed": 1696455768454
+    },
+    {
+      "client": "Prueba pedido ready",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 2
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": 1696455375469,
+      "id": 17,
+      "dateProcessed": 1696455389736
+    },
+    {
+      "client": "Prueba dos ready",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        },
+        {
+          "id": 3,
+          "name": "Agua 500ml",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+          "type": "Almuerzo",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": 1696455755715,
+      "id": 18,
+      "dateProcessed": 1696455767641
+    },
+    {
+      "client": "holi",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "qty": 1
+        }
+      ],
+      "status": "pending",
+      "dataEntry": 1697126736612,
+      "id": 19
     }
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
-    },
-    {
       "id": 2,
-      "name": "Café americano",
+      "name": "Café americano super",
       "price": 500,
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
       "type": "Desayuno",
@@ -83,11 +297,32 @@
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
+      "name": "Café americano super",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "type": "Desayuno",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "name": "Agua BENDITA 500ml",
       "price": 500,
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
       "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
+      "id": 4
+    },
+    {
+      "name": "Almuerzo completo",
+      "price": "1.200",
+      "image": "data:image/png;base64,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",
+      "type": "Almuerzo",
+      "id": 5
+    },
+    {
+      "name": "snndwicj",
+      "price": 500,
+      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "type": "Desayuno",
+      "id": 6
     }
   ],
   "users": [
@@ -102,6 +337,18 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "waiter@systers.xyz",
+      "password": "$2a$10$DRgjoxeqBO0N772a4cwIeeYC85FM/SUI6qmdiJlTUwG31vCPRoLEy",
+      "role": "waiter",
+      "id": 3
+    },
+    {
+      "email": "chef@systers.xyz",
+      "password": "$2a$10$PNMQBAg8cLlB9P8meJ.R/ulJqAkxgKr1iKqAyO2QVr3boMNqvImXO",
+      "role": "chef",
+      "id": 4
     }
   ]
 }
